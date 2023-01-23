@@ -23,9 +23,13 @@ import numpy as np
 A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 values,vectors=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+
+
+
 ```
 
 ## Output:
-![output](/Screenshot%20from%202022-12-25%2023-13-04.png)
+![Screenshot from 2023-01-23 23-20-25](https://user-images.githubusercontent.com/118749665/214113220-abcd364f-9046-46fa-9a42-a913526710ed.png)
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
